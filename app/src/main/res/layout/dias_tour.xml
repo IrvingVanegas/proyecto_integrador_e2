@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="40dp"
+        android:text="SELECCIONA LOS DIAS DEL TOUR"
+        android:textSize="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="40dp"
+        android:text="DATE"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHEK IN"
+        app:layout_constraintTop_toBottomOf="@id/date"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#00FFFFFF"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:icon="@android:drawable/ic_media_play"
+        app:iconTint="#CCBCBC"
+        app:layout_constraintLeft_toRightOf="@id/button2"
+        app:layout_constraintRight_toLeftOf="@id/button4"
+        app:layout_constraintTop_toBottomOf="@id/date" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHEK OUT"
+        app:layout_constraintTop_toBottomOf="@id/date"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#00FFFFFF"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:icon="@android:drawable/ic_media_previous"
+        app:iconTint="#CCBCBC"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="35dp"
+        app:layout_constraintTop_toBottomOf="@id/button3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JULIO 2019"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/button3"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toRightOf="@id/button5"
+        app:layout_constraintRight_toLeftOf="@id/button6"
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#00FFFFFF"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:icon="@android:drawable/ic_media_next"
+        app:iconTint="#CCBCBC"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="35dp"
+        app:layout_constraintTop_toBottomOf="@id/button3" />
+
+    <ImageView
+        android:id="@+id/calendario"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/calendario"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp"
+         />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#00FFFFFF"
+        android:text="Button"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:iconTint="#CCBCBC"
+        app:layout_constraintTop_toBottomOf="@id/calendario"
+        app:layout_constraintLeft_toLeftOf="parent"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

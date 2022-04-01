@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Proyecto_integrador_equipo2</string>
+    <string name="nombreEmp">Nombre de Usuario</string>
+    <string name="empOpcion2">Productos</string>
+    <string name="empOpcion1">Servicios</string>
+    <string name="empOpcion3">Reservaciones</string>
+    <string name="empOpcion4">Reporte de Ocupacion</string>
+    <string name="empOpcion5">Reporte de Ingresos</string>
+    <string name="cerrarSesion">Cerrar Sesion</string>
 </resources>

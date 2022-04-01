@@ -171,6 +171,7 @@
       <list>
         <option value="navigationResourceFile" />
         <option value="layoutResourceFile" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>

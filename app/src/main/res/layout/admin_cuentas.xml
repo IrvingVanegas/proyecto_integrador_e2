@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/idCuentas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tituloCuentas"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Empresa" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Encargado" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Estatus" />
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="ViajesAC" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Fulano" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Activo" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="ViajesAC" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Fulano" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Activo" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="ViajesAC" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Fulano" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Activo" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="ViajesAC" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Fulano" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Activo" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="ViajesAC" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Fulano" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Activo" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

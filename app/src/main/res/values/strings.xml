@@ -11,4 +11,7 @@
     <string name="retorno"><![CDATA[<--]]></string>
     <string name="tituloProduct">producto</string>
     <string name="tituloReserv">Reservaciones</string>
+    <string name="adminOp1">Cuentas Activas</string>
+    <string name="nombreAdmin">Administrador</string>
+    <string name="tituloCuentas">Cuentas Activas</string>
 </resources>

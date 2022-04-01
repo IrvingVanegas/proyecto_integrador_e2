@@ -19,11 +19,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="600dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -35,98 +35,116 @@
             android:stretchColumns="1">
 
             <TableRow>
+
                 <TextView
                     android:layout_column="1"
-                    android:text="Nombre"
-                    android:padding="3dip" />
+                    android:padding="3dip"
+                    android:text="Nombre" />
+
                 <TextView
-                    android:text="Costo"
                     android:gravity="right"
-                    android:padding="3dip" />
+                    android:padding="3dip"
+                    android:text="Costo" />
+
                 <TextView
-                    android:text="Disponibilidad"
                     android:gravity="right"
-                    android:padding="3dip" />
+                    android:padding="3dip"
+                    android:text="Disponibilidad" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Servicio" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="$$$$$" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="Disponible" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Servicio" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="$$$$$" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="Disponible" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Servicio" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="$$$$$" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="Disponible" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Servicio" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="$$$$$" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="Disponible" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Servicio" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="$$$$$" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="Disponible" />
             </TableRow>
 
             <View
                 android:layout_height="2dip"
                 android:background="#FF909090" />
-
-            <TableRow>
-                <TextView
-                    android:layout_column="1"
-                    android:text="Servicio"
-                    android:padding="3dip" />
-                <TextView
-                    android:text="$$$$$"
-                    android:gravity="right"
-                    android:padding="3dip" />
-                <TextView
-                    android:text="Disponible"
-                    android:gravity="right"
-                    android:padding="3dip" />
-            </TableRow>
-
-            <TableRow>
-                <TextView
-                    android:layout_column="1"
-                    android:text="Servicio"
-                    android:padding="3dip" />
-                <TextView
-                    android:text="$$$$$"
-                    android:gravity="right"
-                    android:padding="3dip" />
-                <TextView
-                    android:text="Disponible"
-                    android:gravity="right"
-                    android:padding="3dip" />
-            </TableRow>
-
-            <TableRow>
-                <TextView
-                    android:layout_column="1"
-                    android:text="Servicio"
-                    android:padding="3dip" />
-                <TextView
-                    android:text="$$$$$"
-                    android:gravity="right"
-                    android:padding="3dip" />
-                <TextView
-                    android:text="Disponible"
-                    android:gravity="right"
-                    android:padding="3dip" />
-            </TableRow>
-
-            <TableRow>
-                <TextView
-                    android:layout_column="1"
-                    android:text="Servicio"
-                    android:padding="3dip" />
-                <TextView
-                    android:text="$$$$$"
-                    android:gravity="right"
-                    android:padding="3dip" />
-                <TextView
-                    android:text="Disponible"
-                    android:gravity="right"
-                    android:padding="3dip" />
-            </TableRow>
-
-            <TableRow>
-                <TextView
-                    android:layout_column="1"
-                    android:text="Servicio"
-                    android:padding="3dip" />
-                <TextView
-                    android:text="$$$$$"
-                    android:gravity="right"
-                    android:padding="3dip" />
-                <TextView
-                    android:text="Disponible"
-                    android:gravity="right"
-                    android:padding="3dip" />
-            </TableRow>
         </TableLayout>
     </ScrollView>
 

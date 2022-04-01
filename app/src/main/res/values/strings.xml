@@ -9,4 +9,6 @@
     <string name="cerrarSesion">Cerrar Sesion</string>
     <string name="tituloServicios">Servicios</string>
     <string name="retorno"><![CDATA[<--]]></string>
+    <string name="tituloProduct">producto</string>
+    <string name="tituloReserv">Reservaciones</string>
 </resources>

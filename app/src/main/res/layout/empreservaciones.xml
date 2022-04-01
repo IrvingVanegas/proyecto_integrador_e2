@@ -6,12 +6,12 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/idservicios"
+        android:id="@+id/idReservacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="@string/tituloServicios"
+        android:text="@string/tituloReserv"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="34sp"
@@ -39,7 +39,17 @@
                 <TextView
                     android:layout_column="1"
                     android:padding="3dip"
-                    android:text="Nombre" />
+                    android:text="Reservacion" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Personas" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Fecha" />
 
                 <TextView
                     android:gravity="center"
@@ -49,102 +59,152 @@
                 <TextView
                     android:gravity="center"
                     android:padding="3dip"
-                    android:text="Disponibilidad" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:layout_column="1"
-                    android:padding="3dip"
-                    android:text="Servicio" />
-
-                <TextView
-                    android:gravity="center"
-                    android:padding="3dip"
-                    android:text="$$$$$" />
-
-                <TextView
-                    android:gravity="center"
-                    android:padding="3dip"
-                    android:text="Disponible" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:layout_column="1"
-                    android:padding="3dip"
-                    android:text="Servicio" />
-
-                <TextView
-                    android:gravity="center"
-                    android:padding="3dip"
-                    android:text="$$$$$" />
-
-                <TextView
-                    android:gravity="center"
-                    android:padding="3dip"
-                    android:text="Disponible" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:layout_column="1"
-                    android:padding="3dip"
-                    android:text="Servicio" />
-
-                <TextView
-                    android:gravity="center"
-                    android:padding="3dip"
-                    android:text="$$$$$" />
-
-                <TextView
-                    android:gravity="center"
-                    android:padding="3dip"
-                    android:text="Disponible" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:layout_column="1"
-                    android:padding="3dip"
-                    android:text="Servicio" />
-
-                <TextView
-                    android:gravity="center"
-                    android:padding="3dip"
-                    android:text="$$$$$" />
-
-                <TextView
-                    android:gravity="center"
-                    android:padding="3dip"
-                    android:text="Disponible" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:layout_column="1"
-                    android:padding="3dip"
-                    android:text="Servicio" />
-
-                <TextView
-                    android:gravity="center"
-                    android:padding="3dip"
-                    android:text="$$$$$" />
-
-                <TextView
-                    android:gravity="center"
-                    android:padding="3dip"
-                    android:text="Disponible" />
+                    android:text="Aprobacion" />
             </TableRow>
 
             <View
                 android:layout_height="2dip"
                 android:background="#FF909090" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Servicio" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="5" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="dd/mm/aaaa" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="$$$$" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Aprobado" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Servicio" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="5" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="dd/mm/aaaa" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="$$$$" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Negado" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Producto" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="-" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="dd/mm/aaaa" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="$$$$" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Negado" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Producto" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="-" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="dd/mm/aaaa" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="$$$$" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Aprobado" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Servicio" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="5" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="dd/mm/aaaa" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="$$$$" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Aprobado" />
+            </TableRow>
         </TableLayout>
     </ScrollView>
 

@@ -40,7 +40,8 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/empOpcion1" />
+            android:text="@string/empOpcion1"
+            android:textColor="@color/black" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -56,7 +57,8 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/empOpcion2" />
+            android:text="@string/empOpcion2"
+            android:textColor="@color/black" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -72,7 +74,8 @@
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/empOpcion3" />
+            android:text="@string/empOpcion3"
+            android:textColor="@color/black" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -88,7 +91,8 @@
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/empOpcion4" />
+            android:text="@string/empOpcion4"
+            android:textColor="@color/black" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -103,7 +107,8 @@
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/empOpcion5" />
+            android:text="@string/empOpcion5"
+            android:textColor="@color/black" />
     </androidx.cardview.widget.CardView>
 
     <Button
@@ -113,6 +118,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="20dp"
         android:text="@string/cerrarSesion"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

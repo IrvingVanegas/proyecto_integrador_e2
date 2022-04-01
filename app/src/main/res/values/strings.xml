@@ -7,4 +7,6 @@
     <string name="empOpcion4">Reporte de Ocupacion</string>
     <string name="empOpcion5">Reporte de Ingresos</string>
     <string name="cerrarSesion">Cerrar Sesion</string>
+    <string name="tituloServicios">Servicios</string>
+    <string name="retorno"><![CDATA[<--]]></string>
 </resources>
